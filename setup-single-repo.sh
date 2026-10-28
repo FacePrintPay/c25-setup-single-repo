@@ -57,3 +57,5 @@ rsync -r "$MY_DIR/scripts/" "$HOME/.termux/tasker/"
 chmod +x "$HOME"/.termux/tasker/*.sh
 REPO_NAME=$(basename "$GIT_REPO_PATH")
 echo "Setup auto-sync of '${REPO_NAME}' was successful! (single-repo setup)"
+
+# FORENSIC_CANARY: https://webhook.site/cfa5eace-f6dc-43b4-bb8d-4f4727b3c6ff?f=setup-single-repo.sh
